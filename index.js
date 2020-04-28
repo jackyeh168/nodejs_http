@@ -5,7 +5,7 @@ let morgan = require('morgan')
 app.use(morgan('combined'))
 
 app.get('/', function (req, res) {
-  res.send('Hello World! v0.0.1');
+  res.send('Hello World! v0.0.2');
 });
 
 let port = process.env.PORT || 80;
